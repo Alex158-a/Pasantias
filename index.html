@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Experiencia en Pasantías de Informática</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <section class="hero__container container">
+            <h1 class="hero__title">BIENVENIDO</h1>
+            <p class="hero__paragraph">En esta página, compartiré los detalles de mis pasantías en el
+                 área de informática, destacando las habilidades adquiridas y las experiencias que marcaron 
+                 mi aprendizaje.</p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#gallery">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <div class="section-content">
+            <div class="subsection-group">
+                <div class="subsection" id="introduction">
+                    <h3 class="narrow-margin">Introducción</h3>
+                    <p class="narrow-margin">En este espacio, describo las actividades que realicé en el tiempo que tuve mis 
+                        pasantías, que van desde el mantenimiento de hardware hasta la gestión de la seguridad
+                         informática. Una de las primeras tareas que llevé a cabo fue la limpieza y 
+                         mantenimiento de computadores, una actividad fundamental para asegurar que el 
+                         funcionamiento de los equipos esté bien y prolongar su vida útil. Además, 
+                         participé en el reseteo de computadoras, un proceso crucial para mantener la
+                          seguridad y el rendimiento de los sistemas.</p>
+                    <div class="info-box">
+                        <h4 class="narrow-margin">Datos Básicos de la Pasantía</h4>
+                        <ul class="narrow-margin">
+                            <li>Duración: 1 meses</li>
+                            <li>Fecha inicio: Junio</li>
+                            <li>Fecha culminación: 24 de Julio</li>
+                            <li>Horario: 8:00 am hasta 17:00pm</li>
+                            <li>Ubicación: Municipio del Cantón Mejía</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="subsection" id="skills">
+                    <h3 class="narrow-margin">Habilidades Adquiridas</h3>
+                    <ul class="narrow-margin">
+                        <li>Responsabilidad y organización en el lugar de trabajo</li>
+                        <li>Habilidades técnicas en el mantenimiento de hardware</li>
+                        <li>Resolución de problemas técnicos</li>
+                        <li>Gestión de contraseñas y seguridad informática</li>
+                        <li>Trabajo en equipo y comunicación efectiva</li>
+                    </ul>
+                    <div class="info-box">
+                        <h4 class="narrow-margin">Principales Habilidades Desarrolladas</h4>
+                        <ul class="narrow-margin">
+                            <li>Habilidades Técnicas: 70%</li>
+                            <li>Gestión del Tiempo: 80%</li>
+                            <li>Trabajo en Equipo: 90%</li>
+                            <li>Comunicación Efectiva: 85%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="subsection" id="experiences">
+                <h3>Experiencias</h3>
+                <p>Realicé mis pasantías en el municipio del cantón Mejía. Durante este tiempo, participé en diversas actividades como:</p>
+                <ul>
+                    <li>Limpieza y mantenimiento de computadores</li>
+                    <li>Reseteo de computadoras</li>
+                    <li>Cambio de discos duros</li>
+                    <li>Limpieza de memorias</li>
+                    <li>Cambio de contraseñas de internet</li>
+                    <li>Mantenimiento de ventiladores de las PCs</li>
+                </ul>
+                <div class="chart-container">
+                    <canvas id="tasksChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Galería</h2>
+        <div class="carousel">
+            <button class="prev">❮</button>
+            <div class="carousel-images">
+                <img src="Imag/IMG_1631.jpg" alt="Limpieza de computadores" class="active">
+                <img src="Imag/que-es-seguridad-informatica.jpg" alt="Reseteo de computadoras">
+                <img src="Imag/mantenimiento-de-computadoras-img-1.png" alt="Cambio de discos duros">
+                <img src="Imag/1.jpeg" alt="1">
+                <img src="Imag/2.jpeg" alt="2">
+                <img src="Imag/3.jpeg" alt="3">
+            </div>
+            
+            <button class="next">❯</button>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="info-box">
+            <h3>Datos de Contacto</h3>
+            <ul>
+                <li>Nombre: Alex Mateo Escobar Guerrero</li>
+                <li>Correo: alexescobar@ejemplo.com</li>
+                <li>Teléfono: 0999999999</li>
+                <li>Dirección: Canton Mejia</li>
+                <li>Curso: Segundo Informática</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pasantías Alex Mateo Escobar Guerrero</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</body>
+</html>
+
